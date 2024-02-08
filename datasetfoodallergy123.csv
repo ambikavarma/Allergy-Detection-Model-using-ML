@@ -1,0 +1,192 @@
+user_id,food_id,food_product,user_allergic_reactions,allergic_reaction_skin_rash,allergic_reaction_stomachache,allergic_reaction_nausea,allergic_reaction_diarrhea,allergic_reaction_swelling,allergic_reaction_hives,allergic_reaction_itching,allergen_peanut,allergen_soy,allergen_gluten,allergen_dairy,allergen_fish,prediction,nutritional_data
+210,1,Apple , Stomachache,1,1,1,0,0,0,0,1,0,0,0,0,1,Apples are a good source of fiber and vitamin C.
+211,2,Milk,None,0,0,1,1,0,0,0,0,1,1,1,0,1,Milk is a source of calcium and protein.
+212,3,Tomato,None,0,0,0,0,0,0,0,0,0,0,0,0,0,Tomatoes are rich in vitamin C and antioxidants.
+213,4,Peanut,Peanut Skin Rash,0,1,0,1,0,1,0,1,0,0,0,0,1,Peanuts are a good source of protein.
+214,5,Bread,None,1,1,0,0,1,0,0,0,0,1,0,0,0,Bread provides carbohydrates for energy.
+215,6,Egg,Stomachache,0,0,1,0,0,0,0,0,0,0,0,0,1,Eggs are a good source of protein and essential nutrients.
+216,7,Soy Sauce,None,0,1,0,1,0,0,0,0,1,1,0,0,0,Soy sauce adds flavor to dishes.
+217,8,Shrimp,Skin Rash Hives,0,0,0,1,0,1,1,0,0,0,0,1,1,Shrimp is a seafood high in protein.
+218,9,Yogurt,Stomachache,0,0,1,1,1,0,0,0,0,0,0,1,0,Yogurt is a dairy product rich in probiotics.
+219,10,Orange,None,0,0,0,0,0,0,0,0,0,0,0,0,0,Oranges are a good source of vitamin C.
+220,11,Peaches,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Fresh and juicy peaches.
+221,12,Cherries,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Sweet and tart cherries.
+222,13,Spinach,Nausea,0,0,1,1,1,0,0,0,1,0,0,0,0,Leafy green spinach.
+223,14,Blue Cheese,Hives,0,0,1,0,0,1,1,0,0,0,0,0,0,Blue cheese crumbles.
+224,15,Mangoes,Diarrhea,0,0,0,0,1,0,0,0,0,0,0,0,0,Ripe and sweet mangoes.
+225,16,Broccoli,Itching,0,0,0,0,0,0,0,0,0,0,0,0,0,Fresh broccoli florets.
+226,17,Avocado,Stomachache,1,1,1,1,0,0,0,0,0,0,0,0,0,Ripe and creamy avocados.
+227,18,Tofu,Nausea,0,0,1,0,0,1,0,0,1,0,0,0,0,Silken tofu for cooking.
+228,19,Peanut Butter,Diarrhea,0,0,0,0,1,0,0,1,0,0,0,0,0,Creamy peanut butter spread.
+229,20,Oranges,Hives,0,0,0,1,0,0,0,0,0,0,0,0,0,Fresh and citrusy oranges.
+230,21,Lettuce,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Crisp and refreshing lettuce.
+231,22,Strawberries,Diarrhea,0,1,1,0,1,1,0,0,1,0,0,0,0,Delicious and fresh strawberries.
+232,23,Cucumbers,Itching,0,0,0,0,0,0,0,0,0,0,0,0,0,Cool and hydrating cucumbers.
+233,24,Tomatoes,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Plump and ripe tomatoes.
+234,25,Asparagus,Hives,0,1,1,0,0,1,0,0,0,0,0,0,0,Fresh asparagus spears.
+235,26,Oatmeal,Diarrhea,0,0,0,0,1,0,0,0,0,0,0,0,0,Hearty oatmeal for breakfast.
+236,27,Cantaloupe,Stomachache,0,1,1,1,0,0,0,0,0,0,0,0,0,Sweet and fragrant cantaloupe.
+237,28,Grapes,Nausea,0,0,1,0,1,1,0,0,1,0,0,0,0,Juicy and seedless grapes.
+238,29,Bananas,Hives,0,0,0,0,0,0,1,0,0,0,0,0,0,Fresh and ripe bananas.
+239,30,Carrots,Diarrhea,0,0,0,0,1,0,0,0,0,0,0,0,0,Fresh and crunchy carrots.
+240,31,Pineapples,Stomachache,0,1,1,0,0,1,0,0,0,0,0,0,0,Sweet and tropical pineapples.
+241,32,Bell Peppers,Itching,0,0,0,0,0,0,0,0,1,0,0,0,0,Crisp and colorful bell peppers.
+242,33,Squash,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Fresh and versatile squash.
+243,34,Watermelon,Stomachache,0,1,0,0,1,0,0,0,0,0,0,0,0,Refreshing watermelon slices.
+244,35,Broccoli,Itching,0,0,0,0,0,1,0,0,0,0,0,0,0,Fresh broccoli florets.
+245,36,Kiwi,Nausea,0,0,1,0,0,0,0,0,0,0,0,0,0,Sweet and tangy kiwi fruit.
+246,37,Potatoes,Hives,0,1,0,0,0,0,0,0,0,0,0,0,0,Fluffy and versatile potatoes.
+247,38,Sweet Potatoes,Diarrhea,0,0,0,0,1,0,0,0,0,0,0,0,0,Nutrient-rich sweet potatoes.
+248,39,Celery,Skin Rash,1,0,1,1,1,1,0,0,0,0,0,0,0,Crisp and hydrating celery.
+249,40,Bell Peppers,Itching,0,1,1,0,0,0,0,0,0,0,0,0,0,Crisp and colorful bell peppers.
+250,41,Pears,Hives,0,0,0,1,0,0,0,0,0,0,0,0,0,Sweet and juicy pears.
+251,42,Apples,Diarrhea,0,0,0,0,1,0,0,0,1,0,0,0,0,Crisp and fresh apples.
+252,43,Pineapple Juice,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Freshly squeezed pineapple juice.
+253,44,Avocado,Itching,0,0,0,0,0,1,0,0,0,0,0,0,0,Ripe and creamy avocados.
+254,45,Peaches,Nausea,0,0,1,0,0,0,0,0,0,0,0,0,0,Fresh and juicy peaches.
+255,46,Cherries,Hives,0,1,1,0,0,0,0,0,1,0,0,0,0,Sweet and tart cherries.
+256,47,Blue Cheese,Diarrhea,0,0,0,0,1,1,0,0,0,0,0,0,0,Blue cheese crumbles.
+257,48,Mangoes,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Ripe and sweet mangoes.
+258,49,Spinach,Itching,0,0,1,0,0,0,0,0,0,0,0,0,0,Leafy green spinach.
+259,50,Tofu,Stomachache,0,1,0,1,0,0,0,0,0,0,0,0,0,Silken tofu for cooking.
+260,51,Peanut Butter,Nausea,0,0,1,0,0,0,0,0,0,0,0,0,0,Creamy peanut butter spread.
+261,52,Oranges,Diarrhea,0,0,1,0,1,1,0,0,0,0,0,0,0,Fresh and citrusy oranges.
+262,53,Lettuce,Skin Rash,1,0,0,1,0,0,0,0,1,0,0,0,0,Crisp and refreshing lettuce.
+263,54,Strawberries,Hives,0,1,0,0,0,0,0,0,0,0,0,0,0,Delicious and fresh strawberries.
+264,55,Cucumbers,Itching,0,0,0,0,0,0,0,0,0,0,0,0,0,Cool and hydrating cucumbers.
+265,56,Tomatoes,Stomachache,0,1,0,0,0,1,0,0,0,0,0,0,0,Plump and ripe tomatoes.
+266,57,Asparagus,Diarrhea,0,0,1,1,0,0,0,0,0,0,0,0,0,Fresh asparagus spears.
+267,58,Oatmeal,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Hearty oatmeal for breakfast.
+268,59,Cantaloupe,Itching,0,0,1,0,0,0,0,0,1,0,0,0,0,Sweet and fragrant cantaloupe.
+269,60,Grapes,Stomachache,0,1,0,0,0,1,0,0,0,0,0,0,0,Juicy and seedless grapes.
+270,61,Bananas,Nausea,0,0,1,0,0,0,0,0,0,0,0,0,0,Fresh and ripe bananas.
+271,62,Carrots,Diarrhea,0,0,0,0,1,0,0,0,1,0,0,0,0,Fresh and crunchy carrots.
+272,63,Pineapples,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Sweet and tropical pineapples.
+273,64,Bell Peppers,Itching,0,0,0,0,0,0,0,0,0,0,0,0,0,Crisp and colorful bell peppers.
+274,65,Squash,Hives,0,1,0,0,0,1,0,0,0,0,0,0,0,Fresh and versatile squash.
+275,66,Watermelon,Diarrhea,0,0,0,0,1,0,0,0,0,0,0,0,0,Refreshing watermelon slices.
+276,67,Broccoli,Itching,0,0,0,0,0,0,0,0,0,0,0,0,0,Fresh broccoli florets.
+277,68,Kiwi,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Sweet and tangy kiwi fruit.
+278,69,Potatoes,Nausea,0,0,1,0,0,0,0,0,1,0,0,0,0,Fluffy and versatile potatoes.
+279,70,Sweet Potatoes,Diarrhea,0,0,0,0,1,0,0,0,0,0,0,0,0,Nutrient-rich sweet potatoes.
+280,71,Celery,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Crisp and hydrating celery.
+281,72,Bell Peppers,Itching,0,0,0,0,0,1,0,0,0,0,0,0,0,Crisp and colorful bell peppers.
+282,73,Pears,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Sweet and juicy pears.
+283,74,Apples,Diarrhea,0,0,0,0,1,0,0,0,0,0,0,0,0,Crisp and fresh apples.
+284,75,Pineapple Juice,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Freshly squeezed pineapple juice.
+285,76,Avocado,Itching,0,0,0,0,0,0,0,0,0,0,0,0,0,Ripe and creamy avocados.
+286,77,Peaches,Nausea,0,0,1,0,0,1,0,0,0,0,0,0,0,Fresh and juicy peaches.
+287,78,Cherries,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Sweet and tart cherries.
+288,79,Blue Cheese,Diarrhea,0,1,0,0,1,1,0,0,0,0,0,0,0,Blue cheese crumbles.
+289,80,Mangoes,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Ripe and sweet mangoes.
+290,81,Spinach,Itching,0,0,0,0,0,0,0,0,0,0,0,0,0,Leafy green spinach.
+291,82,Tofu,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Silken tofu for cooking.
+292,83,Popcorn,None,0,1,0,0,0,1,0,0,0,0,0,0,0,Popcorn is a popular snack made from corn kernels.
+293,84,Green Tea,None,0,0,0,0,0,0,0,0,0,0,0,0,0,Green tea is a type of tea known for its health benefits.
+294,85,Red Wine,None,0,0,0,0,0,0,0,0,0,0,0,0,0,Red wine is an alcoholic beverage made from fermented grapes.
+295,86,Blue Cheese,None,0,1,0,0,0,0,0,0,0,0,0,0,0,Blue cheese is a type of cheese known for its strong flavor.
+296,87,Margherita Pizza,None,0,0,0,0,0,1,0,0,0,0,0,0,0,"Margherita pizza is a simple pizza with tomato, cheese, and basil."
+297,88,Spaghetti,None,0,0,0,0,0,1,0,0,0,0,0,0,0,Spaghetti is a popular pasta dish often served with sauce.
+298,89,Beef Burger,None,0,1,0,0,0,0,0,0,0,0,0,0,0,Beef burger is a sandwich made with a beef patty in a bun.
+299,90,Hot Dog,None,0,0,0,0,0,0,0,0,0,0,0,0,0,"A hot dog is a sausage served in a sliced bun, often with condiments."
+300,91,Ice Cream,None,0,0,0,0,0,0,0,0,0,0,0,0,0,Ice cream is a sweet frozen dessert made from dairy products and flavorings.
+301,101,Strawberries,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Delicious and fresh strawberries.
+302,102,Peanut Butter,Stomachache,0,1,0,0,0,0,0,1,0,0,0,0,0,Creamy peanut butter spread.
+303,103,Chicken Soup,Nausea,0,0,1,0,0,1,0,0,0,0,0,0,0,Warm and comforting chicken soup.
+304,104,Yogurt,Hives,0,0,0,0,0,1,0,0,0,0,0,0,0,Healthy and creamy yogurt.
+305,105,Sardines,Diarrhea,0,0,0,0,1,0,0,0,0,0,1,0,0,Canned sardines in oil.
+306,106,Eggs,Nausea,0,0,1,0,0,0,0,0,0,0,0,0,0,Fresh eggs from the farm.
+307,107,Bananas,Itching,0,0,0,0,0,1,0,0,0,0,0,0,0,Fresh and ripe bananas.
+308,108,Cheese,Hives,0,0,0,0,0,0,1,0,0,0,0,0,0,Assorted cheese selection.
+309,109,Salmon,Diarrhea,0,0,0,0,0,0,0,0,0,0,0,0,0,Fresh salmon fillet.
+310,110,Cabbage,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Healthy cabbage leaves.
+311,111,Shrimp,Skin Rash,1,0,1,1,0,0,0,0,0,0,0,1,0,Freshly cooked shrimp.
+312,112,Peanuts,Itching,0,0,0,0,0,0,0,1,0,0,0,0,1,Crunchy roasted peanuts.
+313,113,Chocolate,Diarrhea,0,0,0,0,0,1,0,0,1,0,0,0,0,Delicious chocolate treats.
+314,114,Pineapple,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Sweet and juicy pineapple slices.
+315,115,Onion,Itching,0,0,0,0,0,0,0,0,0,1,0,0,0,Fresh onions for your meals.
+316,116,Cookies,Skin Rash,1,0,1,1,0,0,0,0,0,0,0,0,0,Assorted cookies for snacking.
+317,117,Lactose-Free Milk,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Lactose-free milk for lactose-intolerant individuals.
+318,118,Sushi,Diarrhea,0,1,0,0,1,0,0,0,0,1,0,0,0,Freshly prepared sushi rolls.
+319,119,Wheat Bread,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Whole wheat bread loaf.
+320,120,Orange Juice,Hives,0,0,0,0,0,1,0,0,0,0,0,0,0,Freshly squeezed orange juice.
+321,121,Blueberries,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Fresh and antioxidant-rich blueberries.
+322,122,Clams,Itching,0,0,0,0,0,0,0,0,0,0,1,0,0,Steamed clams in garlic butter.
+323,123,Milk,Skin Rash,1,0,1,1,0,1,0,0,0,0,0,0,0,Fresh and creamy milk.
+324,124,Pasta,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Delicious pasta dishes.
+325,125,Beef,Diarrhea,0,1,0,0,1,0,0,0,0,0,0,0,0,Prime cuts of beef for grilling.
+326,126,Carrots,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Fresh and crunchy carrots.
+327,127,Soy Milk,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Plant-based soy milk.
+328,128,Cereal,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Variety of breakfast cereals.
+329,129,Tuna,Diarrhea,0,0,0,0,1,0,0,0,0,1,0,0,0,Canned tuna in water.
+330,130,Broccoli,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Fresh broccoli florets.
+331,131,Almond Milk,Nausea,0,1,0,1,0,0,0,0,0,0,0,0,0,Nutty almond milk.
+332,132,Pizza,Hives,0,1,0,0,0,0,0,0,0,0,0,0,0,Delicious pizza varieties.
+333,133,Almonds,Itching,0,0,0,0,1,0,0,1,0,0,0,0,0,Crunchy roasted almonds.
+334,134,Ham,Diarrhea,0,0,0,0,1,0,0,0,0,0,0,0,0,Savory ham slices.
+335,135,Watermelon,Stomachache,0,1,0,1,0,0,0,0,0,0,0,0,0,Refreshing watermelon slices.
+336,136,Banana Bread,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Delicious homemade banana bread.
+337,137,Scallops,Itching,0,0,1,0,0,0,0,0,0,0,1,0,0,Seared scallops with garlic butter.
+338,138,Coconut Milk,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Creamy coconut milk.
+339,139,Cereal Bars,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Healthy cereal bars.
+340,140,Ham Sandwich,Skin Rash,1,1,1,1,1,0,0,0,0,0,0,0,0,Classic ham sandwich.
+341,141,Chocolate Milk,Diarrhea,0,0,0,0,0,0,0,0,1,0,0,0,0,Chocolate-flavored milk.
+342,142,Cod,Stomachache,0,1,0,0,0,0,0,0,0,1,0,0,0,Fresh cod fillets.
+343,143,Cauliflower,Stomachache,0,1,1,0,1,0,0,0,0,0,0,0,0,Fresh cauliflower florets.
+344,144,Coconut,Itching,0,0,0,0,0,0,0,0,0,0,0,1,0,Fresh coconut for snacking.
+345,145,Chocolate Cake,Skin Rash,1,1,1,1,0,0,0,0,1,0,0,0,0,Indulgent chocolate cake.
+346,146,Spaghetti,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Tasty spaghetti dishes.
+347,147,Oysters,Diarrhea,0,1,0,0,1,0,0,0,0,1,0,0,0,Fresh oysters with lemon.
+348,148,Peanut Cookies,Stomachache,0,1,0,0,0,0,0,0,0,0,0,0,0,Peanut butter cookies.
+349,149,Mushrooms,Itching,0,0,0,0,0,1,0,0,0,0,0,0,0,Edible mushrooms for cooking.
+350,150,Pineapple Juice,Skin Rash,1,0,1,1,0,0,0,0,0,0,0,0,0,Freshly squeezed pineapple juice.
+351,151,Orange Juice,None,0,0,0,0,1,1,0,0,0,0,0,0,0,Freshly squeezed orange juice.
+352,152,Cauliflower,Nausea,0,0,1,0,0,0,0,0,0,0,0,0,0,Fresh cauliflower florets.
+353,153,Coconut,Itching,0,0,0,0,0,0,0,0,0,0,1,0,,Fresh coconut for snacking.
+354,154,Chocolate Cake,Skin Rash,1,0,0,1,1,0,0,0,0,0,0,0,0,Indulgent chocolate cake.
+355,155,Spaghetti,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Tasty spaghetti dishes.
+356,156,Oysters,Diarrhea,0,1,0,0,0,0,0,0,0,0,0,0,0,Fresh oysters with lemon.
+357,157,Peanut Cookies,Stomachache,0,0,0,0,0,0,0,0,0,0,0,0,0,Peanut butter cookies.
+358,158,Mushrooms,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Edible mushrooms for cooking.
+359,159,Pineapple Juice,Skin Rash,1,0,0,1,0,0,0,0,0,0,0,0,0,Freshly squeezed pineapple juice.
+360,160,Cashews,Diarrhea,0,1,0,0,1,0,0,0,0,0,0,0,0,Crunchy roasted cashews.
+361,161,Blueberries,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Fresh and antioxidant-rich blueberries.
+362,162,Clams,Stomachache,0,0,0,0,0,0,0,0,0,0,1,0,0,Steamed clams in garlic butter.
+363,163,Milk,Skin Rash,1,0,0,0,1,1,0,0,0,0,0,0,0,Fresh and creamy milk.
+364,164,Pasta,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Delicious pasta dishes.
+365,165,Beef,Diarrhea,0,1,0,1,0,0,0,0,0,0,0,0,0,Prime cuts of beef for grilling.
+366,166,Carrots,Nausea,0,0,1,0,0,0,0,0,0,0,0,0,0,Fresh and crunchy carrots.
+367,167,Soy Milk,Hives,0,0,0,0,1,0,0,0,0,0,0,0,0,Plant-based soy milk.
+368,168,Cereal,Diarrhea,0,1,0,0,0,0,0,0,0,0,0,0,0,Variety of breakfast cereals.
+369,169,Tuna,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Canned tuna in water.
+370,170,Broccoli,Nausea,0,0,1,0,0,0,0,0,0,0,0,0,0,Fresh broccoli florets.
+371,171,Almond Milk,Stomachache,0,0,0,0,1,1,0,0,0,0,0,0,0,Nutty almond milk.
+372,172,Pizza,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Delicious pizza varieties.
+373,173,Almonds,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Crunchy roasted almonds.
+374,174,Ham,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Savory ham slices.
+375,175,Watermelon,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Refreshing watermelon slices.
+376,176,Banana Bread,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Delicious homemade banana bread.
+377,177,Scallops,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Seared scallops with garlic butter.
+378,178,Coconut Milk,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Creamy coconut milk.
+379,179,Cereal Bars,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Healthy cereal bars.
+380,180,Ham Sandwich,Hives,0,0,0,0,0,1,0,0,0,0,0,0,0,Classic ham sandwich.
+381,181,Chocolate Milk,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Chocolate-flavored milk.
+382,182,Cod,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Fresh cod fillets.
+383,183,Cauliflower,Diarrhea,0,0,0,0,0,0,0,0,0,0,0,0,0,Fresh cauliflower florets.
+384,184,Coconut,Hives,0,0,0,0,0,1,0,0,0,0,0,0,0,Fresh coconut for sn
+385,185,Chocolate Cake,Skin Rash,1,1,1,1,0,0,0,0,0,0,0,0,0,Indulgent chocolate cake.
+386,186,Spaghetti,Hives,0,0,0,0,0,1,0,0,0,0,0,0,0,Tasty spaghetti dishes.
+387,187,Oysters,Diarrhea,0,0,0,0,0,0,0,0,0,1,0,0,0,Fresh oysters with lemon.
+388,188,Peanut Cookies,Skin Rash,1,0,0,0,0,0,0,0,0,0,0,0,0,Peanut butter cookies.
+389,189,Mushrooms,Itching,0,0,0,0,0,0,0,0,0,0,0,0,0,Edible mushrooms for cooking.
+390,190,Pineapple Juice,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Freshly squeezed pineapple juice.
+391,191,Banana Bread,Diarrhea,0,0,0,0,0,0,0,0,0,0,0,0,0,Delicious homemade banana bread.
+392,192,Scallops,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Seared scallops with garlic butter.
+393,193,Coconut Milk,Skin Rash,1,1,0,0,0,0,0,0,0,0,0,0,0,Creamy coconut milk.
+394,194,Cereal Bars,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Healthy cereal bars.
+395,195,Ham Sandwich,Nausea,0,0,0,0,0,0,0,0,0,0,0,0,0,Classic ham sandwich.
+396,196,Chocolate Milk,Skin Rash,1,1,0,0,0,0,0,0,0,0,0,0,0,Chocolate-flavored milk.
+397,197,Cod,Skin Rash,1,1,0,0,0,1,0,0,0,0,0,0,0,Fresh cod fillets.
+398,198,Cauliflower,Diarrhea,0,0,0,0,0,0,0,0,0,0,0,0,0,Fresh cauliflower florets.
+399,199,Coconut,Hives,0,0,0,0,0,0,0,0,0,0,0,0,0,Fresh coconut for snacking.
+400,200,Chocolate Cake,Skin Rash,1,1,0,0,0,0,0,0,0,0,0,0,0,Indulgent chocolate cake.
